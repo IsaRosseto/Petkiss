@@ -1,0 +1,174 @@
+* { /* Reset de CSS e é utilizada para evitar problemas de cross browser*/
+
+margin: 0;
+
+margin-left: 2;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+    
+    body{
+
+        background-image: url(/img/Green\ Blue\ Gradient\ Event\ Video\ Background.gif);
+    }
+    
+
+
+      .box{
+            color: #4a4343;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: rgba(255, 255, 255, 0.375);
+            box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            border-radius: 15px;  
+            width: 400px;
+            position: fixed;
+        }
+        fieldset{
+            border: 3px solid #ea1538;
+            
+        }
+        legend{
+            border: 1px solid #ea1538;
+            padding: 10px;
+            background-color: #ea1538;
+            border-radius: 8px;
+            color: #fff;
+            align-items: center;
+        }
+
+        .genero{
+            margin-left: 20px;
+        }
+        .inputBox{
+            position: relative;
+            
+        }
+        .inputUser {
+            background: none;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: white;
+            font-size: 15px;
+            width: 80%;
+            letter-spacing: 2px;
+            margin-left: 20px;
+        }
+      
+        .Oquefazer{
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 80%;
+            letter-spacing: 2px;
+            margin-left: 10px;
+        }
+
+        .quando {
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 80%;
+            letter-spacing: 2px;
+            margin-left: 10px;
+        }
+        
+        .horario{
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 80%;
+            letter-spacing: 2px;
+            margin-left: 10px;
+        }
+
+        .Obs{
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 80%;
+            letter-spacing: 2px;
+            margin-left: 10px;
+        }
+
+        .aceite {
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            width: 80%;
+            display: flex;
+            margin-left: 10px;
+        }
+
+        .labelInput{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            pointer-events: none;
+            transition: .5s;
+            margin-left: 20px;
+        }
+
+        .inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+            top: -20px;
+            font-size: 12px;
+            color: #ea1538;
+            
+        }
+        #data_nascimento{
+            border: none;
+            padding: 8px;
+            border-radius: 10px;
+            outline: none;
+            font-size: 15px;
+            
+        }
+
+        
+        .btn2 {
+            background-image: linear-gradient(to right, rgb(234, 21, 57), rgb(168, 7, 34));
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-left: 5%;
+           padding-left: 35%;
+           padding-right: 35%;
+
+        }
+        .btn2:hover{
+            background-image: linear-gradient(to right,rgb(168, 7, 34), rgb(234, 21, 57));
+        }
+
+        p {
+            color: black;
+        }
+
+        h2 {
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                color: #FFF;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #000;
+                width: 100%;
+                text-align: center;
+                font-size: 32px;
+            }
+        

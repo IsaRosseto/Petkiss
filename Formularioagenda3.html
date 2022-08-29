@@ -1,0 +1,53 @@
+
+<link rel="stylesheet" href="styleformularios.css">
+
+<body>
+<h2> Area de agendamento</h2>
+
+<div class="box">
+    <form action="">
+        <fieldset>
+            <legend><b>Agendamento</b></legend>
+            <br>
+            <div class="Oquefazer">
+                <p> O que voce quer fazer?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Banho & Tosa</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Passeio</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3">Hospegadem</label> <br>
+            <input type="checkbox" id="vehicle4" name="vehicle3" value="Boat">
+            <label for="vehicle4">Consulta Veterinaria</label>
+            </div>
+            <br>
+            <div class="quando">
+                <p> Quando?</p>
+                <input id="date" type="date">
+            </div>
+                <br>
+                <div class="horario">
+                    <p> Qual o melhor Horário para voce? </p>
+             <input type="time" id="appt" name="appt"min="00:00" max="24:00" required>
+                <small>Funcionamos 24 horas </small>
+                    </div>
+                    <br> 
+                    <div class="Obs">
+                    <p>Observação:</p>
+                    <textarea></textarea>
+                </div>
+                    <br>
+                    <div class="aceite">
+                    <input type="checkbox" class="aceitar" required>
+                    <p>Concordo com os termos</p>
+                    </div>
+                    <br>
+                    <input type="submit" class="btn2" value="Enviar" />
+
+        </fieldset>
+    </form>
+</div>
+<div class="botãovoltar">
+    <input type="button" value="Voltar" onclick="history.go(-1)">
+</div>
+</body>
